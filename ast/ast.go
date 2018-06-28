@@ -166,8 +166,8 @@ func (oe *InfixExpression) String() string {
 }
 
 type Boolean struct {
-    Token token.Token
-    Value bool
+	Token token.Token
+	Value bool
 }
 
 func (b *Boolean) expressionNode()      {}
